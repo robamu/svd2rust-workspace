@@ -10,7 +10,7 @@
             "name": "Debug",
             "preLaunchTask": "rust: cargo build",
             "program": "${workspaceRoot}/target/debug/svd2rust",
-            "args": ["-i", "${workspaceRoot}/../va108xx-rs/va108xx.svd", "--log", "debug"],
+            "args": ["-i", "${workspaceRoot}/va108xx-rs/va108xx.svd", "--log", "debug"],
             "cwd": "${workspaceRoot}/target/debug/",
             "sourceLanguages": ["rust"]
         }

@@ -1,5 +1,8 @@
 [workspace]
 
+# Rust does not allow nested workspaces yet, so svd can't be added here for now
+# and is located outside of the workspace, with the Cargo.toml of svd2rust
+# adapted for this
 members = [
 	"svd2rust",
 	# "va108xx-rs"
