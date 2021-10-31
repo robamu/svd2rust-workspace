@@ -1,7 +1,9 @@
+[package]
+
 [workspace]
 
 members = [
 	"svd2rust",
-	"svd",
-	"va108xx-rs"
+	"svd"
+	# "va108xx-rs"
 ]
