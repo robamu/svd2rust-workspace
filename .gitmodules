@@ -1,0 +1,9 @@
+[submodule "svd2rust"]
+	path = svd2rust
+	url = https://github.com/robamu/svd2rust.git
+[submodule "svd"]
+	path = svd
+	url = https://github.com/robamu/svd.git
+[submodule "va108xx-rs"]
+	path = va108xx-rs
+	url = https://github.com/robamu/va108xx-rs.git
