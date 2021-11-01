@@ -5,5 +5,5 @@
 # adapted for this
 members = [
 	"svd2rust",
-	# "va108xx-rs"
+	"va108xx-rs"
 ]
