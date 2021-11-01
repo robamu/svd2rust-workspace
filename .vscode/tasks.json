@@ -4,6 +4,10 @@
 		{
 			"type": "cargo",
 			"command": "build",
+			"args": [
+				"-p",
+				"svd2rust"
+			],
 			"problemMatcher": [
 				"$rustc"
 			],
@@ -11,7 +15,7 @@
 				"kind": "build",
 				"isDefault": true
 			},
-			"label": "rust: cargo build"
+			"label": "rust: cargo build svd2rust"
 		}
 	]
 }

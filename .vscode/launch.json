@@ -8,9 +8,9 @@
             "type": "lldb",
             "request": "launch",
             "name": "Debug Non-Working",
-            "preLaunchTask": "rust: cargo build",
+            "preLaunchTask": "rust: cargo build svd2rust",
             "program": "${workspaceRoot}/target/debug/svd2rust",
-            "args": ["-i", "${workspaceRoot}/va108xx-rs/va108xx.svd", "--log", "debug"],
+            "args": ["-i", "${workspaceRoot}/va108xx-rs/va108xx.svd", "--log", "trace"],
             "cwd": "${workspaceRoot}/va108xx-rs",
             "sourceLanguages": ["rust"]
         },
@@ -18,9 +18,9 @@
             "type": "lldb",
             "request": "launch",
             "name": "Debug Working",
-            "preLaunchTask": "rust: cargo build",
+            "preLaunchTask": "rust: cargo build svd2rust",
             "program": "${workspaceRoot}/target/debug/svd2rust",
-            "args": ["-i", "${workspaceRoot}/va108xx-rs/working_va108xx.svd", "--log", "debug"],
+            "args": ["-i", "${workspaceRoot}/va108xx-rs/working_va108xx.svd", "--log", "trace"],
             "cwd": "${workspaceRoot}/va108xx-rs",
             "sourceLanguages": ["rust"]
         }
