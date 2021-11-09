@@ -10,7 +10,7 @@
             "name": "Debug Non-Working",
             "preLaunchTask": "rust: cargo build svd2rust",
             "program": "${workspaceRoot}/target/debug/svd2rust",
-            "args": ["-i", "${workspaceRoot}/va108xx-rs/va108xx.svd", "--log", "trace"],
+            "args": ["-i", "${workspaceRoot}/va108xx-rs/svd/va108xx-base.svd.patched", "--log", "trace"],
             "cwd": "${workspaceRoot}/va108xx-rs",
             "sourceLanguages": ["rust"]
         },
@@ -20,7 +20,7 @@
             "name": "Debug Working",
             "preLaunchTask": "rust: cargo build svd2rust",
             "program": "${workspaceRoot}/target/debug/svd2rust",
-            "args": ["-i", "${workspaceRoot}/va108xx-rs/working_va108xx.svd", "--log", "trace"],
+            "args": ["-i", "${workspaceRoot}/va108xx-rs/svd/va108xx-base.svd.patched", "--log", "trace"],
             "cwd": "${workspaceRoot}/va108xx-rs",
             "sourceLanguages": ["rust"]
         }

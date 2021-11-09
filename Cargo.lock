@@ -277,6 +277,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "sample-crate"
+version = "0.1.0"
+
+[[package]]
 name = "semver"
 version = "0.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -306,7 +310,8 @@ checksum = "8ea5119cdb4c55b55d432abb513a0429384878c15dde60cc77b1c99de1a95a6a"
 [[package]]
 name = "svd-parser"
 version = "0.11.0"
-source = "git+https://github.com/rust-embedded/svd?branch=derive_register#a0319e676cb9e77c06bf8632a9cac4918d548745"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "799387fd53f7832ced8e28a86cda6bb4840ddc69531c3189ee7e061606c9d9d4"
 dependencies = [
  "anyhow",
  "roxmltree",
@@ -316,8 +321,9 @@ dependencies = [
 
 [[package]]
 name = "svd-rs"
-version = "0.11.1"
-source = "git+https://github.com/rust-embedded/svd?branch=derive_register#a0319e676cb9e77c06bf8632a9cac4918d548745"
+version = "0.11.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4b7c66e776fa6c90ef403e0307ad89530125e76340e17e10fb03ae33cc73bace"
 dependencies = [
  "once_cell",
  "regex",
