@@ -8,3 +8,8 @@ echo "Executing command ${cmd}"
 eval ${cmd}
 rm -rf src
 form -i lib.rs -o src/ && rm lib.rs
+rm -rf ../src
+mv src/ ..
+mv device.x ..
+mv build.rs ..
+cargo fmt -p sample-crate
